@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+     "target": "es2017",
+    "sourceMap": false,
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "strict": false,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "resolveJsonModule":true,
+    "allowSyntheticDefaultImports": true,
+    "rootDir": "src",
+    "outDir": "build",
+    "lib": [
+      "es6",
+    ],
+    "types": [
+      "node",
+    ]
+    
+  },
+  "include": [
+    "src/**/*.ts",
+    "types/**/*.d.ts",
+    "*.d.ts",
+  ]
+}
